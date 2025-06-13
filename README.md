@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-## My Project
-
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
-
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
-
-=======
 # AWS Step Functions Workflow Resume Mechanism
 
 The sfnResume construct provides a mechanism for resuming AWS Step Functions workflows using Amazon DynamoDB for state persistence and Amazon EventBridge for triggering resumption. This enables long-running workflows to be paused and resumed based on events.
@@ -104,4 +85,3 @@ Key Component Interactions:
 - Rule: Resume trigger
   - Target: Resume state machine
   - Pattern: Configurable via props
->>>>>>> 84578a7 (Initial commit)
